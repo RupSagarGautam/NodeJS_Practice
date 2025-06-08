@@ -1,8 +1,8 @@
 var url = 'https://mylogger.io/log';
 
-function log(message) {
+function log(msg) {
     // Send an HTTP request
-    console.log(message);
+    console.log(msg);
     console.log('Logging to', url);
 } 
 
